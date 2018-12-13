@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<?php
+$servername = "localhost";
+$username = "username";
+$password = "password";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+echo "Connected successfully";
+?>
+
+<head>
+<title>Passam</title>
+</head>
+<body>
+
+<h1> Naam examentekst </h1> 
+
+	<table align="right">
+		<tr>
+			<td><a href="home.html">Home</a></td>
+		</tr>
+		<tr>
+			<td><a href="profiel.html">Profiel</a></td>
+		</tr>
+			<tr>
+			<td><a href="tips.html">Tips</a></td>
+		</tr>
+			<tr>
+			<td><a href="instellingen.html">Instellingen</a></td>
+		</tr
+			<tr>
+			<td><a href="afmelden.html">Afmelden</a></td>
+		</tr>
+
+<p>Schrijver</p>
+<p>teksteksttekstteksttekst</P>
+
+
+	
+	
+	
+	
+</table>
+	
+</body>
+</html>
